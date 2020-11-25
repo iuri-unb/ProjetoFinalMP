@@ -22,7 +22,7 @@ ProjetoFinalPAA
 ## Atualizar as tabelas ###
 * `php artisan migrate:refresh`
 
-## Atualizar as tabelas e inserindo dados###
+## Atualizar as tabelas e inserindo dados ###
 * `php artisan migrate:refresh --seed`
 
 ## Inserir dados em uma tabela expecifica
