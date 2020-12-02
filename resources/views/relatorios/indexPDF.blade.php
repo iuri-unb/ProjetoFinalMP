@@ -60,14 +60,14 @@ use App\Produto;
    @foreach ($relatorios as $relatorio )   
     <tr>
     <td>{{ $relatorio->nome_produto }}</td>
-    <td>{{ $relatorio->data_criacao }}</td>
-    <td>R$ {{$relatorio->preco }}</td>      
+    <td>{{ $relatorio->data_criacao->format('d/m/Y H:i:s') }}</td>
+    <td>R$ {{ number_format($relatorio->preco, 2, ',', '.') }}</td>      
     </tr> 
     @endforeach
     <tr >
      <td >Total</th>
      <td ></td>
-     <td >R$ {{ $total }}</td>                                
+     <td >R$ {{ number_format($total, 2, ',', '.') }}</td>                                
     </tr>   
     </tbody>
 </table>
