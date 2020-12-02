@@ -55,7 +55,7 @@ Produtos
                             <tr>
                                 <td>{{ $produto->nome }}</td>
                                 <td>{{ $produto->preco }}</td>
-                                <td>{{ $produto->data_criacao }}</td>                                 
+                                <td>{{ $produto->data_criacao->format('d/m/Y H:i:s') }}</td>                                 
                                 <td>
                                 <span class="d-flex">
                                     <form method="get" action= "{{ route('editar_produto', $produto->id)}}"    >
