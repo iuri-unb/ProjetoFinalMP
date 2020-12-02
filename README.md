@@ -7,7 +7,8 @@ ProjetoFinalPAA
 * Laravel
 * Versão 1.0.0
 
-## Copie o exemplo e passe as informações do banco de dados ##
+## Copie o exemplo e passe as informações do banco de dados, no exemplo estamos usando sqlite ##
+* `cp database.sqlite database/`
 * `cp .env.example .env`
 
 ## Baixando as bibliotecas necessárias ##
