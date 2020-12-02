@@ -29,6 +29,9 @@ ProjetoFinalPAA
 * `sudo chgrp -R www-data storage`
 * `sudo chmod -R ug+rwx storage`
 
+## Passo 5 - Executar o server
+* `http://127.0.0.1:8000`
+
 ## Caso haja necessidade atualizar as tabelas ###
 * `php artisan migrate:refresh`
 
