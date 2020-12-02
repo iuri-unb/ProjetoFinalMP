@@ -47,7 +47,7 @@
                             <tr>
                                 <td>{{ $venda->nome_produto  }}</td>
                                 <td>{{ $venda->nome_usuario  }}</td>
-                                <td>{{ $venda->data_criacao}}</td>                                 
+                                <td>{{ $venda->data_criacao->format('d/m/Y H:i:s') }}</td>                                
                                 
                             </tr> 
                             @endforeach 
