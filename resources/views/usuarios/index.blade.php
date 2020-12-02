@@ -52,7 +52,7 @@
                                 <td>{{ $usuario->email }}</td>
                                 <td>{{ $usuario->cep }}</td>
                                 <td>{{ $usuario->rua }}</td>
-                                <td>{{ $usuario->data_criacao }}</td>                                 
+                                <td>{{ $usuario->data_criacao->format('d/m/Y H:i:s') }}</td>                                  
                                 <td>
                                 <span class="d-flex">
                                     <form method="get" action= "{{ route('editar_usuarios', $usuario->id)}}"    >
