@@ -57,7 +57,7 @@
                             <tr >
                                 <th style="background-color:#7A8B8B; color: white"></i> TOTAL</th>
                                 <td style="background-color:#7A8B8B;"></td>
-                                <td style="background-color:#7A8B8B; color:White">{{ $total }}<//td>                                
+                                <td style="background-color:#7A8B8B; color:White">{{ number_format($total, 2, ',', '.') }}<//td>                                
                             </tr>                                                 
                            </tbody>
                         </table>
