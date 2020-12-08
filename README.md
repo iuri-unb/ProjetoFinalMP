@@ -30,7 +30,7 @@ ProjetoFinalPAA
 * `sudo chmod -R ug+rwx storage`
 
 ## Passo 5 - Executar o server
-* `php aritsan serve`
+* `php artisan serve`
 
 ## Caso haja necessidade atualizar as tabelas ###
 * `php artisan migrate:refresh`
