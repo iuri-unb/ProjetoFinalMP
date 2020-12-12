@@ -26,7 +26,7 @@ composer install
 ```
 composer update
 ```
-5. Renomei o arquivo .env.exemple para .env
+5. Renomeie o arquivo .env.exemple para .env
 
 6. Gerando a chave para a aplicação
 ```
