@@ -6,7 +6,7 @@ use Tests\TestCase;
 use App\Produto;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class ExampleTest extends TestCase
+class ProdutoTest extends TestCase
 {
     /**
      * A basic test example.
